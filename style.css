@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html,
@@ -14,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5a78ee;
+  background-color: cadetblue;
 }
 
 #card {
@@ -22,13 +23,40 @@ body {
   width: 300px;
   background-color: white;
   border-radius: 20px;
+  text-align: center;
   padding: 30px;
 }
 
-img {
+#card img {
   border-radius: 10px;
   height: 50%;
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+#card h1 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+#card h5 {
+  font-size: 25px;
+  color: red;
+  margin: 20px;
+}
+
+#card button {
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  margin: 5px;
+}
+
+#card #remove{
+    background-color: #dadada;
+    color: black;
 }
